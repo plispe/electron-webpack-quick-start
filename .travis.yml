@@ -30,3 +30,9 @@ install:
 
 script:
   - yarn dist
+
+addons:
+  artifacts:
+    # ...
+    paths:
+      - dist/**
